@@ -1,10 +1,15 @@
 import React from 'react'
+import ReactResponsiveSlider from './Components/ReactResponsiveSlider'
 
-import { ExampleComponent } from 'domestika-slider-library'
 import 'domestika-slider-library/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ReactResponsiveSlider
+    startingSlide={1}
+    timing={'.5s'}
+    timingFunction={'ease-out'}
+    controls
+  />
 }
 
 export default App
