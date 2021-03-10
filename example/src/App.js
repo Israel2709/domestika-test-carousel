@@ -3,7 +3,7 @@ import ReactResponsiveSlider from './Components/ReactResponsiveSlider'
 
 import 'domestika-slider-library/dist/index.css'
 
-const App = () => {
+const Slider = () => {
   return <ReactResponsiveSlider
     startingSlide={1}
     timing={'.5s'}
@@ -12,4 +12,4 @@ const App = () => {
   />
 }
 
-export default App
+export default Slider
